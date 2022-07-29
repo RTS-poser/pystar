@@ -43,11 +43,34 @@ new_data = [x for x in new_data if x[-1] == 'TRUE']
 
 out_path = os.path.join(os.getcwd(), 'data', 'app', sys_name+'.csv')
 
+
+
+#very, very important, adjust from km to meters...
+new_data2 = []
+
+for row in new_data:
+    row[2]=str(float(row[2])*1000)
+    row[3]=str(float(row[3])*1000)
+    row[4]=str(float(row[4])*1000)
+    new_data2.append(row)
+    
+new_data = new_data2
+
+
+
+
+
+
+
+
 #save csv, because why not?
 with open(out_path,'w') as temp:
     temp.write(','.join(adjusted_header)+'\n')
     for row in new_data:
         temp.write(','.join(row)+'\n')
+
+
+
 
 
 #generate json file for system?

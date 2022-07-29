@@ -297,9 +297,9 @@ class Window(QMainWindow, Ui_MainWindow):
         origin_point = driver_dict_orig[origin_key]
         dest_point = driver_dict_dest[dest_key]
         
-        print('\n\n--------------------')
+        print('\n\n-- {} ------------------'.format(origin_key))
         print(origin_point)
-        print('--------------------')
+        print('\n\n-- {} ------------------'.format(origin_key))
         print(dest_point)
         print('--------------------')
         
