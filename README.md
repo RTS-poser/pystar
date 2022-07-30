@@ -6,7 +6,7 @@ Rather than using similar tools that rely on using an OM-# as a fiixed starting 
 The real intent of this tool is that if you get lost, or over shoot, or drift off course: you can stop, figure out where you are, and plot a new course.
 
 ## Credit where credit is due
-The app relies heavily on a community generated and is inspired by various pre-existing tools already avaiable in the community.  This project is 50% personal learning, 50% customization for personal use in game, but if it helps others feel free to try it.
+The app relies heavily on a community curated data from game files and is inspired by various pre-existing tools already avaiable in the community.  This project is 50% personal learning, 50% customization for personal use in game, but if it helps others feel free to try it.
 
 ## Discalimers
 This tool is a hobby of a hobby.  Real World > learning how to do new things > playing Star Citizen > building usable tools for Star Citizen.  If poor quality code, sub optimal user experience, or gramatical mistakes in documentation trigger you, please feel free to take these ideas and run with them! Just maybe share your results if you get somewhere with it?
