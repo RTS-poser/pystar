@@ -17,6 +17,12 @@
  
  If you want to figure out where you are (if you found something to save or are taking a survey point):
  - Click the "Survey Points" tab
+ - Enter a memorable "Target Name" same as above
+ - You will need to collect Four "anchor points" to determine your location using [multilateration](https://en.wikipedia.org/wiki/Multilateration#/media/File:MLAT_TOT_2D_Algorithm.svg) so it helps to pick quantum markers nearby from different directions.  The accuracy of your point depends on the quality of your anchor selection.
+   - From the "Planetary Body" drop down, select the location you are surveying
+   - In a ship, enable quantum drive and orient towards a planet-bound quantum marker (OM-# will also work, major orbital stations should also work if in geostationary orbits)
+   - Start typing the name of your selected "Quantum Marker" in the designated text box, allow autocomplete to assist you.  Spelling matters, it needs to be perfect based on the reference points used in the script.  Trust autocomplete!
+   - Enter in the "Marker Distance" in the designated text box, be sue to select km/m (sticking with km and converting in your head is probably better)
  
  
  ## Discalimers
