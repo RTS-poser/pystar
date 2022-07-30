@@ -13,7 +13,7 @@ This tool is a hobby of a hobby.  Real World > learning how to do new things > p
 
 ## Setup/"Install"
 This is a python script that has not been optimized for wide release.  A certain amount of python/anaconda knowledge is assumed, but I'll try and point you in the right direction:
-- This has been tested on Python 3.10, as distributed by [Anaconda/Miniconda](https://docs.anaconda.com/anaconda/install/)
+- This has been tested on [Python 3.10](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html), as distributed by [Anaconda/Miniconda](https://docs.anaconda.com/anaconda/install/)
 - major dependent libraries include:
   - [pyqt (PyQt5)](https://anaconda.org/anaconda/pyqt)
   - [scipy](https://anaconda.org/anaconda/scipy) (should include [numpy](https://anaconda.org/anaconda/numpy))
