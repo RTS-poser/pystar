@@ -25,15 +25,19 @@ data_path = os.path.join(os.getcwd(), 'data', 'app', sys_name+'.json')
 with open(data_path,'r') as temp:
     anchor_points_all = json.loads(temp.read())
 
-p_name = 'microTech'
 
-anchor_points = anchor_points_all[p_name]
+
 
 import starlib
 
 session_data = {}
 
 quantum_data = {}
+
+#on first load, static for microtech, needs a new function?
+p_name = 'microTech'
+
+anchor_points = anchor_points_all[p_name]
 
 for key, value in anchor_points.items():
     quantum_data[key]={}
@@ -80,6 +84,22 @@ class Window(QMainWindow, Ui_MainWindow):
         self.change_cbo_orig_type()
         self.change_cbo_dest_type()
 
+    def reload_pdata(self):
+        #on first load, static for microtech, needs a new function?
+        p_name = self.cbo_planet.currentText()
+        #p_name = 'microTech'
+        global anchor_points
+        global quantum_data
+        quantum_data = {} #assume this is rebuilt easy enough?
+        anchor_points = anchor_points_all[p_name]
+        
+        for key, value in anchor_points.items():
+            quantum_data[key]={}
+            quantum_data[key]['xyz']=value
+            np_xyz = np.array(value)
+            dec_degrees = starlib.xyz_to_degrees(value)
+            quantum_data[key]['dec_degrees']=dec_degrees
+
     #-----------------------    
     # re-init function(s)?
     #-----------------------  
@@ -103,6 +123,9 @@ class Window(QMainWindow, Ui_MainWindow):
         self.txt_q_marker.setCompleter(completer)
         
         #reload dependent cbo boxes?
+        self.reload_pdata()
+        self.change_cbo_orig_type()
+        self.change_cbo_dest_type()
         
     
 
@@ -235,6 +258,11 @@ class Window(QMainWindow, Ui_MainWindow):
         # self.lineEdit.setText('')
         # self.lineEdit_2.setText('')
         self.txt_notes.setText('')
+        
+        #update cbo for bearing
+        #remove all entries...
+        self.change_cbo_orig_type()
+        self.change_cbo_dest_type()
         
     #-----------------------
     #---  form 2, calculate bearing logic
