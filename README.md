@@ -8,9 +8,9 @@ The real intent of this tool is that if you get lost, or over shoot, or drift of
 ## Discalimers
 This tool is a hobby of a hobby.  Real World > learning how to do new things > playing Star Citizen > building usable tools for Star Citizen.  If poor quality code, sub optimal user experience, or gramatical mistakes in documentation trigger you, please feel free to take these ideas and run with them! Just maybe share your results if you get somewhere with it?
 
- ##Workflow
+##Workflow
  
- If you have a known planet-relative (planet = xyz origin = 0,0,0)
+If you have a known planet-relative (planet = xyz origin = 0,0,0)
  - Click the "Manual Entry" tab
  - Enter a memorable "Target Name" for your location, it will be used in app and saved to export files for this point
  - Enter in the X, Y, Z text boxes the coresponding relative coordiantes in METERS
