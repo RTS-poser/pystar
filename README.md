@@ -57,7 +57,7 @@ If you want to navigate somewhere and have already entered it as a Survey Point:
 - For both your "Origin" and your "Destination" you will need to:
   - Select if your origin/destination is a known "Quantum Marker" or a custom "Survey Point" from the appropriate drop down box
   - Once the first dropdown box is selected for either Origin/Destination, the second should be populated with available Quantum Markers
-- Click the "Calculate Heading" and the in game compass "Course/Bearing" and the estimated "Distance" to target
+- Click the "Calculate Heading" to get the in game compass "Course/Bearing" and the estimated "Distance" to target
   - Note, distance estimate is not based on Great Circles but then there is no in-game odometer
   - If traveling from a land based quantum marker you shuold be able to turn around during your journey to monitor progress
   - Note that if traveling from an orbital location, the in game compass can act a little weird, try going to a lower altitude?
