@@ -66,6 +66,13 @@ If you want to navigate somewhere and have already entered it as a Survey Point:
 ## Bonus/Data Export
 Every time the "Save Anchor" button on the "Survey Points" tab is used, a json file called "star_gui.json" is saved to the local code directory (example included in repo).  This can be further processed and converted into a CSV file or otherwise used as you see fit.  For example you can track the waypoints you use during a trip or record fixed points with identification for use in other projects.
 
+## Known issues & Failure Modes
+- preliminary accuracy estimates are guessed/assumed to be several hundred meters in game.  Probably accurate enough to find a ship or modest landmark, probably not accurate enough to see a delivery box easily/without searching
+- Forms can be prone to user/data entry error, quantum marker distance text can be hard to read at times
+- Distance calculations are estimates and distance traveled is not always easy to measure whil looking forward.  When on final approach, slow down, lose altitude, and consider doing addiiotanl Survey Point checks to confirm if you over-shoot your target.  During casual usage the biggest user error seems to be overshooting a target repeatedly (based on a sample size of 1 user so far...).
+- App can crash if an unexpected usage pattern is encountered.  Error trapping and graceful failure modes have not been implemented.
+- UI/UX could probably use some improvememnts too.
+
 ## Ideas for Future
 - add user configuration and session-specific save options
 - add tools to export to more common formats including CSV and geographic/shapefiles
