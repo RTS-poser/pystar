@@ -19,7 +19,7 @@ This is a python script that has not been optimized for wide release.  A certain
   - [scipy](https://anaconda.org/anaconda/scipy) (should include [numpy](https://anaconda.org/anaconda/numpy))
   - Will technically run from spyder IDE, works best from console
 - Download repository and extract to a local known folder.
-- Note that this app relies on a community generated google doc spreadsheet (link TBD), exported to a CSV file (included in repo) and will need to be updated with major patches periodically.
+- Note that this app relies on a community generated google doc spreadsheet, exported to a CSV file (included in repo) and will need to be updated with major patches periodically.
 
 ## To run:
 - Set up an environment of python with known dependencies (scipy, numpy) and activate it
