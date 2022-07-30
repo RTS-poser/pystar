@@ -69,7 +69,8 @@ Every time the "Save Anchor" button on the "Survey Points" tab is used, a json f
 ## Known issues & Failure Modes
 - preliminary accuracy estimates are guessed/assumed to be several hundred meters in game.  Probably accurate enough to find a ship or modest landmark, probably not accurate enough to see a delivery box easily/without searching
 - Forms can be prone to user/data entry error, in-game quantum marker distance text can be hard to read at times
-- Distance calculations are estimates and distance traveled is not always easy to measure whil looking forward.  When on final approach, slow down, lose altitude, and consider doing addiiotanl Survey Point checks to confirm if you over-shoot your target.  During casual usage the biggest user error seems to be overshooting a target repeatedly (based on a sample size of 1 user so far...).
+- Distance calculations are estimates and distance traveled is not always easy to measure while looking forward.  When on final approach, slow down, decrease altitude, and consider doing additional Survey Point checks to confirm if you over-shoot your target.  During casual usage the biggest user error seems to be overshooting a target repeatedly (based on a sample size of 1 user so far...).
+- Usage likely improved with reference maps capable of performing distance meaasurement (a future project)
 - App can crash if an unexpected usage pattern is encountered.  Error trapping and graceful failure modes have not been implemented.
 - UI/UX could probably use some improvememnts too.
 
