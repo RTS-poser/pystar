@@ -54,5 +54,11 @@ If you want to navigate somewhere and have already entered it as a Survey Point:
   - Note that if traveling from an orbital location, the in game compass can act a little weird, try going to a lower altitude?
   - accuracy of the calcualtions depends on the accuracy of the inputs.  In game distances round to the nearest meter, 1/10 km, or km making the absolute accuracy of your Survey Point subject to a lack of precision  
  
+## Ideas for Future
+- add user configuration and session-specific save options
+- add tools to export to more common formats including CSV and geographic/shapefiles
+- perhaps look into adding simple graphics/mini map?
+- enhance UX based on common workflows (auto-indremeent IDs for survey points, loading data from past sessions?)
+
  
  
