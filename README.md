@@ -53,7 +53,10 @@ If you want to navigate somewhere and have already entered it as a Survey Point:
   - If traveling from a land based quantum marker you shuold be able to turn around during your journey to monitor progress
   - Note that if traveling from an orbital location, the in game compass can act a little weird, try going to a lower altitude?
   - accuracy of the calcualtions depends on the accuracy of the inputs.  In game distances round to the nearest meter, 1/10 km, or km making the absolute accuracy of your Survey Point subject to a lack of precision  
- 
+
+## Bonus/Data Export
+Every time the "Save Anchor" button on the "Survey Points" tab is used, a json file called "star_gui.json" is saved to the local code directory (example included in repo).  This can be further processed and converted into a CSV file or otherwise used as you see fit.  For example you can track the waypoints you use during a trip or record fixed points with identification for use in other projects.
+
 ## Ideas for Future
 - add user configuration and session-specific save options
 - add tools to export to more common formats including CSV and geographic/shapefiles
