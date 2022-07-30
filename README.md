@@ -29,6 +29,8 @@ This is a python script that has not been optimized for wide release.  A certain
 - begin using as described below
 
 ## Workflow
+
+In terms of practical usage, this is perhaps best for users with a spare laptop floating around.  Switching back and forth on a single gaming PC is likely not going to be a plesent experience.  This *should* work wherever python + pyqt can be installed but has only been tested on Windows 10 and macOS.
  
 If you have a known planet-relative XYZ location (planet = xyz origin = 0,0,0)
  - Click the "Manual Entry" tab
