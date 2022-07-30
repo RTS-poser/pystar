@@ -13,10 +13,10 @@ This tool is a hobby of a hobby.  Real World > learning how to do new things > p
 
 ## Setup/"Install"
 This is a python script that has not been optimized for wide release.  A certain amount of python/anaconda knowledge is assumed, but I'll try and point you in the right direction:
-- This has been tested on Python 3.10, as distributed by Anaconda/Miniconda
+- This has been tested on Python 3.10, as distributed by [Anaconda/Miniconda](https://docs.anaconda.com/anaconda/install/)
 - major dependent libraries include:
-  - pyqt (PyQt5)
-  - scipy (should include numpy)
+  - [pyqt (PyQt5)](https://anaconda.org/anaconda/pyqt)
+  - [scipy](https://anaconda.org/anaconda/scipy) (should include [numpy](https://anaconda.org/anaconda/numpy))
   - Will technically run from spyder IDE, works best from console
 - Download repository and extract to a local known folder.
 - Note that this app relies on a community generated google doc spreadsheet (link TBD), exported to a CSV file (included in repo) and will need to be updated with major patches periodically.
