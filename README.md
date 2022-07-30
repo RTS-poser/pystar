@@ -5,8 +5,21 @@ Rather than using similar tools that rely on using an OM-# as a fiixed starting 
  
 The real intent of this tool is that if you get lost, or over shoot, or drift off course, you can stop, figure out where you are, and plot a new course.
 
+## Credit where credit is due
+The app is relies heavily on a community generated google doc spreadsheet (ask about credit/links, etc) and is inspired by various pre-existing tools already avaiable in the community.  This project is 50% persoanl learning, 50% customization for personal use in game, but if it helps others feel free to try it.
+
 ## Discalimers
 This tool is a hobby of a hobby.  Real World > learning how to do new things > playing Star Citizen > building usable tools for Star Citizen.  If poor quality code, sub optimal user experience, or gramatical mistakes in documentation trigger you, please feel free to take these ideas and run with them! Just maybe share your results if you get somewhere with it?
+
+## Setup/"Install"
+This is a python script that has not been optimized for wide release.  A certain amount of python/anaconda knowledge is assumed, but I'll try and point you in the right direction:
+- This has been tested on Python 3.10, as distributed by Anaconda/Miniconda
+- major dependent libraries include:
+  - pyqt (PyQt5)
+  - scipy (should include numpy)
+  - Will technically run from spyder IDE, works best from console
+- Download repository and extract to a local known folder.
+- Note that this app relies on a community generated google doc spreadsheet (link TBD), exported to a CSV file (included in repo) and will need to be updated with major patches periodically.
 
 ## Workflow
  
