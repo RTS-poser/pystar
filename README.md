@@ -10,7 +10,7 @@ This tool is a hobby of a hobby.  Real World > learning how to do new things > p
 
 ## Workflow
  
-If you have a known planet-relative (planet = xyz origin = 0,0,0)
+If you have a known planet-relative XYZ location (planet = xyz origin = 0,0,0)
  - Click the "Manual Entry" tab
  - Enter a memorable "Target Name" for your location, it will be used in app and saved to export files for this point
  - Enter in the X, Y, Z text boxes the coresponding relative coordiantes in METERS
