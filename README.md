@@ -21,6 +21,13 @@ This is a python script that has not been optimized for wide release.  A certain
 - Download repository and extract to a local known folder.
 - Note that this app relies on a community generated google doc spreadsheet (link TBD), exported to a CSV file (included in repo) and will need to be updated with major patches periodically.
 
+## To run:
+- Set up an environment of python with known dependencies (scipy, numpy) and activate it
+- download repository to local computer
+- navigate to repository on local computer via commandline
+- run: python trip_logger.py
+- begin using as described below
+
 ## Workflow
  
 If you have a known planet-relative XYZ location (planet = xyz origin = 0,0,0)
